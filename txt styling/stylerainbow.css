@@ -1,0 +1,45 @@
+/*
+selector{
+ property:value;
+}
+*/
+
+.red {
+    color:red;
+    background-color: maroon;
+  }
+
+  #orange {
+    color:orange;
+    background-color: #dd6336;
+  }
+
+  .yellow{
+    color: yellow;
+  background-color: #ddbf27
+  }
+
+  #green {
+    color:green;
+    background-color: lightgreen;
+  }
+
+  .blue {
+    color:blue;
+    background-color: lightblue;
+  }
+
+  #indigo {
+    color:indigo;
+    background-color: mediumpurple;
+  }
+
+  .violet {
+    color:violet;
+    background-color: darkviolet;
+  }
+
+  body {
+    background-color: #d4e6ec;
+    
+  }
