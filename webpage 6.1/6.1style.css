@@ -1,0 +1,71 @@
+/*
+selector{
+ property:value;
+}
+*/
+
+/*I used google fonts to add this into my code */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cedarville+Cursive&display=swap');
+
+body {
+    margin: 0;
+    background-color: #D2E1E6;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+  
+    background-image: url("https://cdn.shopify.com/s/files/1/1143/5434/products/Eyes_Light-Blue_product_4225acfa-cbc3-421e-81d7-bd1a43cb138d_400x.jpg?v=1615484798");
+    
+    background-position: 2% 0;
+    background-size: cover;
+  }
+
+.smallnavbar{
+    font-family: 'Caveat', cursive;
+    background-color: #AAC9DD;
+  overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+.smallnavbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Change the color of links on hover */
+.smallnavbar a:hover {
+    background-color: #C1E3ED;
+    color: black;
+  }
+
+  h2 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #1b4479;
+  }
+ /*this boarder is to make the images resemble paintings in frames*/
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #814e12;
+  }
+
+  p {
+    font-family: "Cedarville Cursive", serif;
+    text-align: center;
+    color:#3b4a5e;
+    
+  }
