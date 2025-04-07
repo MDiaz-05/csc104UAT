@@ -1,0 +1,121 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.nav{
+    font-family: "Poiret One", sans-serif;
+}
+
+.nav{
+    background-color: #480655;
+  overflow: hidden;
+  position: sticky;
+}
+
+/* Style the links inside the navigation bar */
+.nav a{
+    float: left;
+  color: #e9d2e9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav a:hover{
+  background-color: #e9d2e9;
+  color: black;
+}
+
+h1{
+  color: #e9d2e9;
+  font-size: 45px;
+  text-align: center;
+}
+
+summary{
+  text-align: center;
+  padding: 24px 26px;
+  font-size: 25px;
+  font-family: "Poiret One", sans-serif;
+}
+ /*for portfolio page*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 26px;
+  justify-content: center;
+}
+
+/* columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* makes a two column-layout  */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* layou for about me page */
+.About{
+  width:900px;
+  padding: 24px 26px;
+}
+
+.About img{
+  float: right;
+  }
+
+.About p{
+  margin-right:100px
+  
+}
+
+/* layout for forum in contact me */
+
+.contact{
+  padding: 24px 26px; /*this moves the forum down*/
+}
+
+
+  input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #480655; /* colored boarder */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+
+  .img{
+   margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  padding: 24px 26px;
+ }
+  
