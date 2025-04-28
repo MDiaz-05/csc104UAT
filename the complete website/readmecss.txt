@@ -1,0 +1,3 @@
+This is my read me about my css. I won't lie a lot of the things are the same as last assigenment. I did a lot of css for my outline. However I did fix some minor things. 
+I added another font to change my text on my normal pages. I also changed the color of the submit button. It did take me some time t change the submit button, becaue it used to 
+change sizes when clicked. I also made it change colors when its hovered. I only have one css code. For the past assignment i thought we needed css so I think I went a bit ahead. 
